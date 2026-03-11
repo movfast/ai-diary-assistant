@@ -4,7 +4,7 @@ Interactive chat diary that summarizes and saves the talk in Notion
 
 # 🗒️ AI Diary Updater
 
-A conversational AI diary assistant that lets you chat about your day, then automatically summarizes the conversation and saves a structured entry to Notion.
+A conversational AI diary assistant that lets you interactively chat about your day, then automatically summarizes the conversation and saves a structured entry to Notion.
 
 Built with Python, Claude (Anthropic), Gradio, and the Notion API.
 
@@ -74,7 +74,7 @@ Open your Notion page, click **···** → **Add connections** → select your 
 ### 5. Run the app
 
 ```bash
-python diary_updater.py
+python interactive_diary_assistant.py
 ```
 
 Then open [http://127.0.0.1:7860](http://127.0.0.1:7860) in your browser.
@@ -94,22 +94,13 @@ Then open [http://127.0.0.1:7860](http://127.0.0.1:7860) in your browser.
 ## Project Structure
 
 ```
-diary-updater/
-├── diary_updater.py   # Main application
+ai-diary-assistant/
+├── interactive_diary_assistant.py   # Main application
 ├── .env               # API keys (never commit this!)
 ├── .gitignore
 └── README.md
 ```
 
----
-
-## Security
-
-Never commit your `.env` file. Make sure your `.gitignore` includes:
-
-```
-.env
-```
 
 ---
 
