@@ -22,7 +22,7 @@ Built with Python, Claude (Anthropic), Gradio, and the Notion API.
 
 ## Demo
 
-![Demo placeholder](https://via.placeholder.com/800x400?text=Add+a+screenshot+here)
+![Chat interface](assets/screenshot_chat.png)
 
 ---
 
@@ -95,6 +95,11 @@ Then open [http://127.0.0.1:7860](http://127.0.0.1:7860) in your browser.
 
 ```
 ai-diary-assistant/
+├── assets/
+│   ├── screenshot_chat1.png
+│   ├── screenshot_chat2.png
+│   ├── screenshot_chat3.png
+│   └── screenshot_notion.png
 ├── interactive_diary_assistant.py   # Main application
 ├── .env               # API keys (never commit this!)
 ├── .gitignore
