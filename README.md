@@ -22,7 +22,7 @@ Built with Python, Claude (Anthropic), Gradio, and the Notion API.
 
 ## Demo
 
-![Notion interface](assets/screenshot_Notion.png)
+![Notion interface](assets/Screenshot_Notion.png)
 
 ---
 
