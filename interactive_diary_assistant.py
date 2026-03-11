@@ -125,6 +125,7 @@ Mood: What emotional themes came up?
 Highlight: What was the most significant moment?
 Summary: A clean, first-person diary entry.
 Patterns: Any recurring themes worth noting?
+Todos: A list of things I would like to do
 
 Conversation:
 {conversation}
