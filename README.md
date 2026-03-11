@@ -104,6 +104,16 @@ ai-diary-assistant/
 
 ---
 
+## Security
+
+Never commit your `.env` file. Make sure your `.gitignore` includes:
+
+```
+.env
+```
+
+---
+
 ## License
 
 MIT
